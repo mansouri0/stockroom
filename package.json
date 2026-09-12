@@ -1,0 +1,20 @@
+{
+  "name": "inventory-tracker",
+  "version": "1.0.0",
+  "description": "A simple Bootstrap inventory tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "sqlite3": "^6.0.1"
+  }
+}

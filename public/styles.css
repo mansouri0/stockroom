@@ -1,0 +1,12 @@
+body { background: #f5f7fb; color: #24324a; }
+.navbar { background: linear-gradient(105deg, #1b5fd0, #174aa5) !important; }
+.stat-card { border-radius: 1rem; transition: transform .15s ease; }
+.stat-card:hover { transform: translateY(-2px); }
+.stat-icon { width: 2.5rem; height: 2.5rem; border-radius: .75rem; display: grid; place-items: center; font-size: 1.2rem; }
+.card { border-radius: 1rem; }
+.table > :not(caption) > * > * { padding-top: 1rem; padding-bottom: 1rem; }
+.table thead th { color: #69758a; font-size: .75rem; text-transform: uppercase; letter-spacing: .04em; border-bottom-width: 1px; }
+.font-monospace { font-size: .78rem; }
+.btn { border-radius: .55rem; }
+.form-control, .form-select, .input-group-text { border-color: #dbe1eb; }
+.sale-total { background: #f1f6ff; display: flex; align-items: center; justify-content: space-between; }
