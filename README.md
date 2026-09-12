@@ -1,7 +1,4 @@
 
-# stockroom
-custom sales and inventory management system
-
 # Stockroom
 
 A small Node.js and Express inventory tracker with a Bootstrap 5 interface.
@@ -27,4 +24,3 @@ The app keeps its data in `data/inventory.db`, a SQLite database driven by the N
 - Search products by name or SKU
 - Product, unit, and inventory-value summary cards
 - Sales window with automatic stock deductions and recent-sale history
->>>>>>> master
